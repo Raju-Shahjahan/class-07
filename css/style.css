@@ -1,0 +1,200 @@
+/* common css start */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/* common css end */
+
+/* header start */
+header{
+    border-bottom: 1px solid #eef0f3;
+}
+
+.header-section {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+.logo {
+    float: left;
+    width: 10%;
+    
+}
+
+.logo a{}
+.logo a img{
+    width: 100%;
+    margin-top: 5px;
+}
+
+nav {
+}
+.menu {
+    float: right;
+    width: 37%;
+    list-style: none;
+}
+
+.menu ul{
+    float: right;
+ 
+}
+
+.menu ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.menu ul li:last-child{
+    margin-right: 0px;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #0b2253;
+}
+.menu ul li a:hover{
+    color: #008aff;
+}
+
+/* header end */
+
+
+/* banner start */
+
+.container1 {
+    width: 37%;
+    margin: 25px auto;
+}
+
+.wrapper {
+    text-align: center;
+    color: #0f2656;
+}
+.wrapper h1 {
+    font-size: 45px;
+}
+.wrapper p{
+    margin-top: -15px;    
+    font-size: 18px;
+}
+.wrapper span{
+    color: #008aff;
+}
+
+.banner-pic{}
+.banner-pic img{
+    width: 100%;
+    margin: 70px auto;
+}
+
+/* banner end */
+
+/* success part start */
+
+.success {
+    overflow: hidden;
+    width: 47%;
+    margin: 0 auto;
+}
+
+.three {
+    float: left;
+    width: 48%;
+}
+.three h1 {
+    font-size: 45px;
+    text-align: right;
+    color: #f05464;
+}
+
+.three p {
+    color: #0f2756;
+    text-align: right;
+}
+
+.ideas {
+    float: right;
+    width: 48%;
+}
+.ideas h1 {
+    font-size: 45px;
+    color: #0f2756;
+}
+/* success part end */
+
+/* service section start */
+
+.service {
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    padding: 80px 0px;
+}
+
+.contenta {
+    float: left;
+    width: 31%;
+    background: #fdebed;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding-bottom: 30px;
+
+}
+.contentb{
+    float: left;
+    width: 31%;
+    background: #ebf9f4;
+    margin-right: 15px;
+    padding-bottom: 26px;
+
+}
+.contentc {
+    float: left;
+    width: 31%;
+    background: #fff7e8;
+    padding-bottom: 22px;
+    
+
+}
+
+.one {
+}
+.one img {
+    width: 100%;
+}
+
+.lekha {
+    width: 316px;
+    text-align: left;
+    margin-left: 22px;
+}
+.lekha h1 {
+    color: #00104b;
+}
+.lekha p {
+    color: #00104b;
+}
+
+/* service section end */
+
+.footer{
+    background: #008aff;
+    padding: 12px 0px;
+}
+.footer-content{
+    text-align: center;
+}
+.footer-content p{
+    color: lightgray;
+}
+.footer-content p span{
+    color: white;
+    letter-spacing: 5px;
+}
